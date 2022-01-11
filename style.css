@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #051616;
+  color: #0e6464;
+  font-size: 26px;
+}
+
+#keyboard{
+  display: grid;
+  grid-template-columns: repeat(13, 1fr)
+}
+
+button{
+  background: #0e6464;
+}
+
+#mistakes, #maxWrong{
+  font-weight: bold;
+  color: #7a1919;
+}
+
+#wordSpotLight{
+  letter-spacing: 6px;
+  font-weight: bold;
+}
